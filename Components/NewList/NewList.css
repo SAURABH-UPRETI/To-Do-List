@@ -1,0 +1,40 @@
+.new-list {
+    background-color: #b4ee92;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    height: 50px;
+  }
+  
+  .new-list button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #220430;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .new-list button:hover,
+  .new-list button:active {
+    background-color: #510674;
+    border-color: #aa72c4;
+  }
+  
+  .new-list button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-list button.alternative:hover,
+  .new-list button.alternative:active {
+    background-color: #ddb3f8;
+  }
